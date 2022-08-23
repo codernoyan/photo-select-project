@@ -10,4 +10,5 @@ function photoSelect(photo) {
     const show = document.getElementById('show');
     
     show.style.backgroundImage = `url(${photoObj.photoSrc})`
+    document.body.style.backgroundImage = `url(${photoObj.photoSrc})`;
 }
