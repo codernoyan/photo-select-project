@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Select By Click</title>
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="container">
+        <div>
+            <h1>Photo Select</h1>
+            <div id="show" class="show-photo">
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="photo-select" class="container photo-container">
+            <div>
+                <img onclick="photoSelect(this)" src="/images/image-1.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="photoSelect(this)" src="/images/image-2.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="photoSelect(this)" src="/images/image-3.jpg" alt="">
+            </div>
+            <div>
+                <img onclick="photoSelect(this)" src="/images/image-4.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <!-- js link -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
